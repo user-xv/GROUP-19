@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import ttk
-from Database import search_tickets_by_title, get_ticket_by_status
+from database import search_tickets_by_title, get_ticket_by_status
 
 class FilterSearchFrame(tk.LabelFrame):
     def __init__(self, parent, update_callback, get_project_id_callback):
